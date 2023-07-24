@@ -1,0 +1,14 @@
+package node;
+
+/**
+ * interface of a general node that has only a key
+ * @author Pateraki Alexandra
+ *
+ */
+public interface Node {
+	/**
+	 * getter of the key
+	 * @return the key of the node
+	 */
+	public int getKey();
+}
